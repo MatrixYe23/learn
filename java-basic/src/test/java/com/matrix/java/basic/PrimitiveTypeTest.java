@@ -3,9 +3,6 @@ package com.matrix.java.basic;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
-import java.util.LinkedList;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class PrimitiveTypeTest {
     @Test
