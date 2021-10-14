@@ -1,0 +1,29 @@
+server:
+    port: 8080
+spring:
+    batch:
+        initialize-schema: ALWAYS
+        job:
+            enabled: false
+    datasource:
+        maxIdle: 1
+        password: test2345..
+        timeBetweenEvictionRunsMillis: 60000
+        url: jdbc:mysql://localhost:3306/springbatch
+        username: root
+        hikari:
+            minimumIdle: 2
+            maximumPoolSize: 20
+            idleTimeout: 120000
+            connectionTimeout: 300000
+            leakDetectionThreshold: 300000
+
+    jpa:
+        generate-ddl: true
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+
+logging:
+    level:
+        org.hibernate.type.descriptor.sql.BasicBinder: trace

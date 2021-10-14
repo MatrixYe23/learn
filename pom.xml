@@ -11,6 +11,9 @@
     <modules>
         <module>java-basic</module>
         <module>algorithms</module>
+        <module>ocr</module>
+        <module>netty</module>
+        <module>spring-batch</module>
     </modules>
 
     <properties>
